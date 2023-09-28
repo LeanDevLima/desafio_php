@@ -8,7 +8,7 @@ $produto = fgets(STDIN);
 echo("Digite a quantidade: ");
 $quantidade = fgets(STDIN);
 
-echo("Digite o valor R$: ");
+echo("Digite o valor unitário R$: ");
 $valor = fgets(STDIN);
 
 $valorfinal = $quantidade * $valor;
